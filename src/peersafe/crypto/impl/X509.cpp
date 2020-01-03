@@ -99,7 +99,6 @@ namespace ripple {
 
 
 		int ret = 0;
-		int nX509Verify = 1;
 
 		//cert chain context
 		X509_STORE_CTX *ctx = NULL;
