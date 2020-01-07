@@ -25,11 +25,11 @@
 > 2. 将 protoc.exe 所在目录加入至 PATH 环境变量中
 
 ### install openssl
-> 1. 下载 [Win64 OpenSSL](http://slproweb.com/products/Win32OpenSSL.html)
-> 2. 安装完 Open SSL 后，并将 OPENSSL_ROOT_DIR 环境变量设置为 OpenSSL 安装路径
+> 1. 下载 [Win64 OpenSSL](http://slproweb.com/products/Win32OpenSSL.html) ，版本为 Win64 OpenSSL v1.0.2u 
+> 2. 安装完 OpenSSL 后，并将 OPENSSL_ROOT_DIR 环境变量设置为 OpenSSL 安装路径
 
 ### install boost
-> 1. 下载 [boost](http://www.boost.org/users/news/)
+> 1. 下载 [boost](http://www.boost.org/users/news/) ，版本为 1_63_0
 > 2. 编译 boost
 ```cmd
 > cd C:\lib\boost_1_63_0
