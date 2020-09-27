@@ -27,7 +27,7 @@ printf "\nBuild command will be: ./b2 -j${num_procs} ${extra_defines}\n\n"
 
 boost_dir="boost_1_${version}_${patch}"
 boost_tag="boost-1.${version}.${patch}"
-git clone -b "${boost_tag}" --recursive https://github.com/boostorg/boost.git "${boost_dir}"
+git clone -b "${boost_tag}" --recursive https://github.com.cnpmjs.org/boostorg/boost.git "${boost_dir}"
 
 cd ${boost_dir}
 git checkout --force ${boost_tag}
